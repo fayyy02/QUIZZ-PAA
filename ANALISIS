@@ -1,0 +1,37 @@
+NAMA : Andi Muhammad Fayyadh
+NIM : F55123094
+ANALISIS NAIVE.PY :
+Fungsi generate_numbers:
+
+Menghasilkan 50 bilangan acak dalam rentang 0–100 dengan seed 40 untuk memastikan hasil tetap sama setiap kali dijalankan.
+Kompleksitas waktu: O(n).
+Fungsi bubble_sort:
+
+Metode sorting sederhana (Bubble Sort) dengan membandingkan dan menukar elemen berdekatan.
+Kompleksitas Waktu:
+Worst Case: O(n^2) (data tidak terurut sama sekali).
+Best Case: O(n) (data sudah terurut, iterasi berhenti lebih awal dengan variabel swapped).
+Kompleksitas Ruang: O(1) (in-place sorting).
+Keunggulan:
+
+Sederhana dan mudah diimplementasikan.
+Optimisasi dengan menghentikan iterasi lebih awal jika tidak ada perubahan (best case).
+Kelemahan:
+
+Tidak efisien untuk dataset besar karena kompleksitas kuadratik pada kasus terburuk.
+Output:
+
+Data acak diurutkan dalam urutan menaik. Cocok untuk dataset kecil atau hampir terurut
+
+ANALISIS CONQUEROR.PY :
+Algoritma: Menggunakan Merge Sort (Divide and Conquer) untuk mengurutkan data.
+Kompleksitas:
+Waktu: O(n log n) (efisien untuk dataset besar).
+Ruang: O(n) (butuh memori tambahan untuk array sementara).
+Keunggulan:
+Konsisten di semua kasus (best, average, worst case).
+Lebih cepat dibandingkan Bubble Sort untuk dataset besar.
+Kelemahan:
+Tidak bekerja in-place, memerlukan ruang tambahan.
+Hasil:
+Mengurutkan 50 bilangan acak dalam urutan menaik.
